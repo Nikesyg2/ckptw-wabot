@@ -10,9 +10,9 @@ const {
 global.config = {
     // Informasi bot dasar
     bot: {
-        name: "CKPTW", // Nama bot
+        name: "Entah", // Nama bot
         prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
-        phoneNumber: "", // Nomor telepon bot (opsional jika menggunakan QR code)
+        phoneNumber: "6281332383711", // Nomor telepon bot (opsional jika menggunakan QR code)
         thumbnail: "https://e1.pxfuel.com/desktop-wallpaper/943/672/desktop-wallpaper-whatsapp-bot-what-is-it-and-how-to-use-messenger-chatbots-chatbot.png", // Gambar thumbnail bot
         website: "https://chat.whatsapp.com/FlqTGm4chSjKMsijcqAIJs" // Website untuk WhatsApp bot
     },
@@ -41,9 +41,9 @@ global.config = {
 
     // Informasi owner bot
     owner: {
-        name: "", // Nama owner bot
-        number: "", // Nomor telepon owner bot
-        organization: "", // Nama organisasi owner bot
+        name: "Tanaa", // Nama owner bot
+        number: "628133238711", // Nomor telepon owner bot
+        organization: "Mireu Group", // Nama organisasi owner bot
         co: [""] // Nomor co-owner bot
     },
 
@@ -55,13 +55,13 @@ global.config = {
 
     // Pengaturan sistem bot
     system: {
-        autoRead: true, // Apakah bot otomatis membaca pesan masuk
+        autoRead: false, // Apakah bot otomatis membaca pesan masuk
         autoTypingOnCmd: true, // Aktifkan status mengetik ketika memproses perintah
         cooldown: 5000, // Waktu cooldown antar perintah dalam milidetik
         restrict: false, // Membatasi perintah tertentu untuk keamanan
         selfOwner: true, // Apakah bot menjadi owner
         selfReply: true, // Apakah bot merespon pesan yang dikirim bot sendiri
         timeZone: "Asia/Jakarta", // Zona waktu bot
-        usePairingCode: false // Menggunakan kode pairing untuk koneksi
+        usePairingCode: true // Menggunakan kode pairing untuk koneksi
     }
 };
